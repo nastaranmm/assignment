@@ -1,0 +1,50 @@
+.about{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.block{
+    display:flex,inline-block;
+    justify-content: space-between;
+    
+}
+h4{
+    display: flex;
+    justify-content: left;
+    font-size: 500px;
+    color: #7b88a8;
+}
+
+.history{
+    display: flex ; 
+    flex-direction: row;
+}
+
+.back{
+    width: 300px;
+}
+
+ol{
+    padding: 20px;
+}
+
+.skill{
+    padding: 20px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+.left,
+.middle,
+.right{
+    border-radius: 50px;  
+}
+
+.middle{
+    width: 700px;
+}

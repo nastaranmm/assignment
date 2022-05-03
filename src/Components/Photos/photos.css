@@ -1,0 +1,21 @@
+.photos{
+   display: flex;
+   flex-direction: row;
+}
+ .first{
+  width: 30%;
+ }
+
+ .second{
+  width: 40%;
+ }
+
+ .third{
+  width: 30%;
+ }
+
+.left
+.right,
+.left{
+  border-radius: 50px; 
+}

@@ -1,0 +1,39 @@
+.exprience{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+    
+}
+.spanexp{
+    color: #565594;
+    font-size: 2rem;
+    padding: 10rem;
+}
+.spanexp1{
+   
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    
+
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h5,p{
+    font-size: 1.5rem;
+}
+
+quote{
+    display: block;
+    background-color: #565594;
+    height: 300px;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: left;
+    padding: 100px;
+}
+
+

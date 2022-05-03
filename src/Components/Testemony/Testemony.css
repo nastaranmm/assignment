@@ -1,0 +1,35 @@
+.testimony{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimoni{
+    display: flex;
+    text-align: left;
+    font-size: 80px;
+    padding: 150px;
+}
+
+
+.testimony1-div,.testimony2-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.testimony1-indiv,.testimony1-indiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgtestimony1,.imgtestimony2{
+    padding: 8rem;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.ptestimony1,.ptestimony2{
+    padding: 50px;
+}
+
+
+

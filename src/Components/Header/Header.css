@@ -1,0 +1,97 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+  color: #333;
+  transform: translateY(0);
+  transition: transform 0.6s ease;
+}
+
+.header2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 86px;
+  background-color: gray;
+  color: rosybrown;
+  transform: translateY(10);
+  transition: transform 6s ease;
+  animation: myanimation 3s;
+}
+@keyframes myanimation {
+  0% {
+    background-color: transparent;
+    color: transparent;
+  }
+  35% {
+    background-color: gray;
+    color: rosybrown;
+  }
+  100% {
+    background-color: gray;
+    color: rosybrown;
+  }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f5f7;
+    font-size:1.5rem;
+    width:100%;
+    position: fixed;
+    height: 120px;
+    box-shadow: #595896;
+    transition: 1ms;
+  }
+
+  .header2{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-size:1.5rem;
+    width:100%;
+    position: fixed;
+    height: 120px;
+    box-shadow: #595896;
+    transition: 1ms;
+  }
+
+  .headerleft{
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 200px;
+    font-weight: bold;
+  }
+
+  .headeright{
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 200px ;
+  }
+  
+  .header a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #595896;
+  }
+  
+  .header a:link,
+  .header a:visited {
+    color: rgb(99, 80, 208);
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+    color: black;
+  }

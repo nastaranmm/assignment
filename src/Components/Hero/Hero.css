@@ -1,0 +1,54 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    background-color:#f2f5f7;
+    height: 1300px;
+    width: 100%;
+    
+}
+
+.hi{
+    margin: 50px;
+    font-size: 80px;
+    font-weight: 500; 
+    color: #191d26;
+    text-align: left;    
+}
+
+.btn{
+    font-size: 20px;
+    border: none;
+}
+
+.link{
+
+    font-size: 25px;
+    color: #595896;
+}
+
+.brookdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px ;
+}
+
+.main{
+    display: flex;
+    justify-content: right;
+    border-radius:10rem 15rem;
+    margin-top: 150px;
+    height: 1000px;
+    background-color: rgb(193, 204, 238);
+}
+
+button{
+    background-color: #565594;
+    color: #f2f5f7;
+    height: 70px;
+    width: 200px;
+}
+
+span{
+ display: flex;
+ flex-direction: row;
+}
