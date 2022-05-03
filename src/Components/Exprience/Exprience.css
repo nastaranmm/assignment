@@ -27,13 +27,15 @@ h5,p{
 }
 
 quote{
-    display: block;
+    display: flex;
+    align-items:left;
     background-color: #565594;
     height: 300px;
     font-size: 50px;
+    font-weight: 300;
     color: aliceblue;
     text-align: left;
-    padding: 100px;
+    padding: 200px 500px 200px 200px;
 }
 
 

@@ -1,10 +1,10 @@
 .hero{
+    position: relative;
     display: flex;
     flex-direction: row;
     background-color:#f2f5f7;
     height: 1300px;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .hi{
@@ -21,22 +21,23 @@
 }
 
 .link{
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
     font-size: 25px;
     color: #595896;
 }
 
 .brookdiv{
-    display: flex;
-    flex-direction: row;
+   
     margin-top: 300px ;
 }
 
 .main{
     display: flex;
-    justify-content: right;
+    
     border-radius:10rem 15rem;
-    margin-top: 150px;
+    
     height: 1000px;
     background-color: rgb(193, 204, 238);
 }
@@ -46,9 +47,4 @@ button{
     color: #f2f5f7;
     height: 70px;
     width: 200px;
-}
-
-span{
- display: flex;
- flex-direction: row;
 }

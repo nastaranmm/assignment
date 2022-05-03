@@ -2,6 +2,12 @@
    display: flex;
    flex-direction: row;
 }
+.photos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
  .first{
   width: 30%;
  }

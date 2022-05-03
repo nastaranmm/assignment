@@ -8,14 +8,17 @@ function Hero(){
              <div className="brookdiv">
              <p className="hi" >
              Hi, I am Brooke, a project manager 
+                  
+             </p>
+             <div className="btndiv">
                  <button className="btn">
                      Email me
-                 </button>   
-             </p>
+                 </button> 
+            </div> 
              <span className="link">
-                <a href="facebook.com"target="_blank">Linkedin/ </a>
-                <a href="facebook.com"target="_blank">facebook/ </a>
-                <a href="facebook.com"target="_blank">Twitter </a>
+                <a href="facebook.com"target="_blank"> Linkedin/ </a>
+                <a href="facebook.com"target="_blank"> facebook/ </a>
+                <a href="facebook.com"target="_blank"> Twitter </a>
             </span>
              </div>
             <div className="imgdiv">
