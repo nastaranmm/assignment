@@ -1,10 +1,10 @@
-.hero{
+.hero{ 
     position: relative;
     display: flex;
     flex-direction: row;
     background-color:#f2f5f7;
-    height: 1300px;
-    width: 100%;  
+    width: 100%; 
+   
 }
 
 .hi{
@@ -15,11 +15,6 @@
     text-align: left;    
 }
 
-.btn{
-    font-size: 20px;
-    border: none;
-}
-
 .link{
     position: absolute;
     bottom: 0;
@@ -28,23 +23,27 @@
     color: #595896;
 }
 
+.imgdiv{
+   margin-top: 150px;
+   width:60%; 
+}
+
+.imgdiv img{
+    width: 100%;
+    border-radius:50px 70px;
+
+}
+
 .brookdiv{
-   
-    margin-top: 300px ;
+    padding: 300px 100px;
+    width: 40%;
 }
 
-.main{
-    display: flex;
-    
-    border-radius:10rem 15rem;
-    
-    height: 1000px;
-    background-color: rgb(193, 204, 238);
-}
-
-button{
+button {
     background-color: #565594;
     color: #f2f5f7;
     height: 70px;
     width: 200px;
+    font-size: 20px;
+    border: none;
 }

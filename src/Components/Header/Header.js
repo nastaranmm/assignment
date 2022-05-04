@@ -2,22 +2,22 @@ import "./Header.css";
 import React, { useState, useEffect } from 'react'
 
 function Header(){
-    const [header, setHeader] = useState("header");
+    // const [header, setHeader] = useState("header");
 
-    const listenScrollEvent = (event) => {
-        if (window.scrollY < 73) {
-          return setHeader("header")
-        } else if (window.scrollY > 70) {
-          return setHeader("header2")
-        } 
-      }
+    // const listenScrollEvent = (event) => {
+    //     if (window.scrollY < 73) {
+    //       return setHeader("header")
+    //     } else if (window.scrollY > 70) {
+    //       return setHeader("header2")
+    //     } 
+    //   }
       
-      useEffect(() => {
-        window.addEventListener('scroll', listenScrollEvent);
+    //   useEffect(() => {
+    //     window.addEventListener('scroll', listenScrollEvent);
       
-        return () =>
-          window.removeEventListener('scroll', listenScrollEvent);
-      }, []);
+    //     return () =>
+    //       window.removeEventListener('scroll', listenScrollEvent);
+    //   }, []);
       
     return(
         <div className="header">

@@ -1,7 +1,5 @@
 import "./About.css";
-import left from "../../left.webp";
-import middle from "../../middle.webp";
-import right from "../../right.webp";
+
 
 function About(){
     return(
@@ -24,7 +22,6 @@ function About(){
                 </ol>
             </div>
      
-
         </div>
     )}
 

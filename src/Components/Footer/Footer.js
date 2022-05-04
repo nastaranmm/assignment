@@ -11,18 +11,18 @@ function Footer(){
             </div>
             <div className="socials">
                 <div className="social">
-                    <span>-Socils</span>
-                    <ol>
+                    <span >― SOCIALS</span>
+                    <ol className="list"> 
                         <li><a href="www.linkedin.com" target="_blank">Linkedin</a></li>
                         <li><a href="www.linkedin.com" target="_blank">facebook</a></li>
                         <li><a href="www.linkedin.com" target="_blank"> Twiiter</a></li>
                     </ol>
                 </div>
                 <div>
-                <span>-Contacts</span>
+                <span> ― CONTACTS</span>
                     <ol>
-                        <li>Linked</li>
-                        <li>Linked</li>
+                        <li>Brook@gmial.com</li>
+                        <li>123-1234-123</li>
                     </ol>
                 </div>
             </div>

@@ -22,7 +22,7 @@ function Hero(){
             </span>
              </div>
             <div className="imgdiv">
-            <img className="main" src={itsImg}/>
+            <img className="" src={itsImg}/>
             </div>
         </div>
     )

@@ -7,9 +7,9 @@ import right from "../../right.webp";
 function Photos(){
     return(
         <div className="photos">
-           <div className="first"><img className="left" src={left}/></div> 
-            <div className="second"><img className="middle" src={middle}/></div>
-           <div className="third"><img className="right" src={right}/></div> 
+           <div className="left"><img  src={left}/></div> 
+            <div className="middle"><img  src={middle}/></div>
+           <div className="right"><img  src={right}/></div> 
         </div>
     )}
 
